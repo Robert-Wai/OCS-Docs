@@ -274,7 +274,7 @@ A collection of `SdsStreamPropertyOverride` objects:
 
 **Response**
 
-  The response includes a status code and a response body containing a serialized event similar to the standard (without Uom conversion) request above. The event will have its `Measurement` property converted.
+The response includes a status code and response body containing a serialized event similar to the standard request above (without Uom conversion). In this response, the system will have converted the `Measurement` property of the event.
 
 **Response body**
 
@@ -283,7 +283,7 @@ A collection of `SdsStreamPropertyOverride` objects:
 
       {  
          "Time":"2017-11-23T13:00:00Z",
-         "Measurement":100.0 
+         "Measurement":1000.0 
       }
 
 
